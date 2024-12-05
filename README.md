@@ -2,7 +2,7 @@
 By Rasmus Høgh Gregersen (s204313), Daniel Damkjær Ries (s214641), Kalle Emil Leander Johansen (s204099), Thor Nørgaard Eriksen (s204618)
 
 ## **Overview**
-This project analyzes Reddit comments to explore how linguistic complexity, sentiment, and engagement interact in polarizing discussions. Using comments from subreddits like \textit{/r/Israel} and \textit{/r/Palestine}, we examine how readability (LIX score), sentiment (positive, negative, neutral), and popularity (upvotes) influence user interactions. By uncovering these patterns, the project sheds light on the dynamics of divisive online conversations.
+This project analyzes Reddit comments to explore how linguistic complexity, sentiment, and engagement interact in polarizing discussions. Using comments from subreddits like */r/Israel* and */r/Palestine*, we examine how readability (LIX score), sentiment (positive, negative, neutral), and popularity (upvotes) influence user interactions. By uncovering these patterns, the project sheds light on the dynamics of divisive online conversations.
 
 ## **Key Features**
 Scrapes comments from selected subreddits using the PRAW library.
