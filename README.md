@@ -23,4 +23,4 @@ To cluster the data, go to clustering.ipynb and run the cells. Here the preproce
 
 The analysis of the clusters for each subreddit can be accessed in cluster_analysis.ipynb. In some of the cells, the clustering method can be changed to see the results of different types of clustering.
 
-Finally, go to the clustering_wordclouds.ipynb to visualize the words used in the clusters. By choosing subreddit at the top and running the cells below in this notebook, numerical analysis of the clusters and wordclouds are shown. 
+Finally, go to the cluster_wordclouds.ipynb to visualize the words used in the clusters. By choosing subreddit at the top and running the cells below in this notebook, numerical analysis of the clusters and wordclouds are shown. 
