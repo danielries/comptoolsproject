@@ -11,6 +11,8 @@ Clusters comments based on sentiment, upvotes, and readability.
 Visualizes results using word clouds, scatter plots, and cluster summaries.
 
 ## **Running the code**
+To run the code, create an environment with from our requirements.txt file in the repository.
+
 To get new data, you will have to set up an app in the developers section of Reddit to get a client id and client secret for the PRAW library in Python. In the data_extract.ipynb these values have to be put in at the top, and in the bottom the desired subreddit and search query can be chosen.
 
 In the data folder, there is already extracted more than 16,000 comments from different relevant subreddits for the Israel/Palestine topic. Also, comments from the "baking" subreddit are included as a baseline. They are saved as subreddit_search-query.csv.
@@ -19,4 +21,6 @@ To load the data and run the preprocessing go to data_processing.ipynb and run t
 
 To cluster the data, go to clustering.ipynb and run the cells. Here the preprocessed data is loaded and different types of clustering is applied. The dataframe with assigned clusters are saved as subreddit_clustered.csv. 
 
-Finally, the analysis of the clusters for each subreddit can be accessed in cluster_analysis.ipynb. By choosing subreddit at the top and running the cells below in this notebook, numerical analysis of the clusters and wordclouds are shown. 
+The analysis of the clusters for each subreddit can be accessed in cluster_analysis.ipynb. In some of the cells, the clustering method can be changed to see the results of different types of clustering.
+
+Finally, go to the cluster_wordclouds.ipynb to visualize the words used in the clusters. By choosing subreddit at the top and running the cells below in this notebook, numerical analysis of the clusters and wordclouds are shown. 
